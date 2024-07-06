@@ -67,7 +67,7 @@ export function UpcomingReminders() {
               marginVertical: 12,
             }}
           >
-            Upcoming
+            رویداد ها:
           </Text>
         )
       }
@@ -125,7 +125,7 @@ export function UpcomingReminders() {
                     fontWeight: "bold",
                   }}
                 >
-                  Cancel
+                  لغو
                 </Text>
               </TouchableOpacity>
               <Text
