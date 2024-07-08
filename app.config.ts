@@ -1,7 +1,7 @@
 export default {
   name: "Nottie",
   slug: "nottie",
-  version: "1.0.0",
+  version: "1.0.1",
   orientation: "portrait",
   icon: "./assets/icon.jpg",
   plugins: [
@@ -30,7 +30,7 @@ export default {
   ios: {
     supportsTablet: true,
     bundleIdentifier: "ir.tahanian.nottie",
-    buildNumber: "1.0.3",
+    buildNumber: "1.0.5",
   },
   android: {
     package: "ir.tahanian.nottie",
