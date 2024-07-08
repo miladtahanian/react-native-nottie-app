@@ -1,0 +1,48 @@
+{
+    "expo": {
+      "name": "Nottie",
+      "slug": "nottie",
+      "version": "1.0.1",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#260064"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "runtimeVersion": {
+          "policy": "appVersion"
+        }
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#260064"
+        },
+        "package": "ir.tahanian.nottie",
+        "runtimeVersion": "1.0.0"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "870eb609-0590-442d-9f7b-c4f88f61fc87"
+        }
+      },
+      "owner": "miladtahanian",
+      "updates": {
+        "url": "https://u.expo.dev/870eb609-0590-442d-9f7b-c4f88f61fc87"
+      },
+      "plugins": [
+        "expo-font"
+      ]
+    }
+  }
+  
